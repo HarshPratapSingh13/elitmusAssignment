@@ -1,0 +1,36 @@
+body{
+    background: url(/assets/car.jpg) center/cover no-repeat;
+}
+.container{
+    margin: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    color: white;
+    border: 2px solid rgb(221, 20, 20);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.153);
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+
+p{
+    font-size: 2rem;
+}
+
+ul{
+    margin-left: 100px;
+}
+ul li a{
+    font-size: 1.3rem;
+}
