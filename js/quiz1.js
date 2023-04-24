@@ -17,7 +17,7 @@ btn.onclick = function () {
     if (answerString.length == 0) {
         alert('Invalid input');
     }
-    else if (answerString == "Rocky".toLowerCase().trim()) {
+    else if (answerString == "rocky".toLowerCase().trim()) {
         ok=true;
         correct++;
     } else {
